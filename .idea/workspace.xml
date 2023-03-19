@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6b2f362-081b-4539-baf8-bf7f279f3460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/RestoreReadDBCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/controller/RestoreReadDBController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/dto/AccountLookUpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/dto/EqualityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/AccountQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountByHolderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountByIdQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountWithBalanceQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAllAccountQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/QueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/infrastructure/AccountQueryDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/CommandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/CommandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/AccountCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/AccountCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/domain/AccountAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/domain/AccountAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventSourcingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventSourcingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/joyful/java/cqrs/account/common/dto/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/joyful/java/cqrs/account/common/dto/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/QueryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query/QueryApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2NE5Zzpskzt1SiE3esWKltA8t49" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Volumes/Joy/projects/java/CQRS"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6b2f362-081b-4539-baf8-bf7f279f3460" name="Changes" comment="" />
+      <created>1679216460735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679216460735</updated>
+    </task>
+    <servers />
+  </component>
+</project>

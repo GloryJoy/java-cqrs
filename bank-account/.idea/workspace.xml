@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b02fbca7-bb74-425a-a799-85700a23f17e" name="Changes" comment="followed commit">
+      <change afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/RestoreReadDBCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/controller/RestoreReadDBController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/dto/AccountLookUpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/dto/EqualityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/AccountQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountByHolderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountByIdQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAccountWithBalanceQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/FindAllAccountQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/api/query/QueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/infrastructure/AccountQueryDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/CommandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/CommandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/AccountCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/AccountCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/commands/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/domain/AccountAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/domain/AccountAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventSourcingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventSourcingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.common/src/main/java/com/joyful/java/cqrs/account/common/dto/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.common/src/main/java/com/joyful/java/cqrs/account/common/dto/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/QueryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query/QueryApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JlJpvQgv3I8aIIMZDTx1CCP5IV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Joy/projects/java/CQRS/bank-account/account.query/src/main/java/com/joyful/java/cqrs/account/query&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/account.query/src/main/java/com/joyful/java/cqrs/account/query" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Command">
+    <configuration name="Command" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.joyful.java.cqrs.account.command.CommandApplication" />
+      <module name="account.command" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Query" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.joyful.java.cqrs.account.query.QueryApplication" />
+      <module name="account.query" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Command" />
+      <item itemvalue="Application.Query" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b02fbca7-bb74-425a-a799-85700a23f17e" name="Changes" comment="" />
+      <created>1672646924438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672646924438</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1673092699617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673092699617</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1673092872552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673092872552</updated>
+    </task>
+    <task id="LOCAL-00003" summary="followed commit">
+      <created>1673172829618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673172829618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="followed commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="followed commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/controller/OpenAccountController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/api/controller/DepositFundController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventSourcingHandler.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account.command/src/main/java/com/joyful/java/cqrs/account/command/infrastructure/AccountEventStore.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+            <grouping-rule id="XBreakpointGroupingByPackageRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+</project>
